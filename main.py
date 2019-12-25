@@ -32,3 +32,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+""" TODO
+- make a flag (-s) for automatically generating new account number and switching Mullvad client over to new account number
+- automatically generate new account number at a set interval (i.e. -i 3hrs)
+
+Write tests:
+- run main.py random number of times and make sure each time the account number is unique
+"""
